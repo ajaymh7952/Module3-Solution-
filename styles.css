@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f1f1f;
+}
+
+#header-nav {
+  background-color: #b8b8b8;
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  height: auto;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #111 !important;
+}
+
+.navbar-toggle {
+  margin-top: 14px;
+  border-color: #444 !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #111;
+}
+
+#collapsable-nav {
+  padding-left: 0;
+  padding-right: 0;
+  border: 0;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #eeeeee;
+}
+
+#nav-list li {
+  border-top: 1px solid #111;
+}
+
+#nav-list li:last-child {
+  border-bottom: 1px solid #111;
+}
+
+#nav-list a {
+  color: #111;
+  font-size: 1.2em;
+}
+
+h1 {
+  margin-top: 28px;
+  margin-bottom: 32px;
+  font-size: 2.2em;
+  font-weight: 700;
+}
+
+.menu-section {
+  min-height: 1000px;
+  margin-bottom: 30px;
+  padding: 16px 22px 24px;
+  background-color: #b8b8b8;
+}
+
+.menu-section h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.menu-section p {
+  font-size: 1.05em;
+  line-height: 1.55;
+}
